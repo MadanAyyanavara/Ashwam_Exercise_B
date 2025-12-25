@@ -15,8 +15,11 @@ unknown
 
 Script Labels: latin, devanagari, mixed, other
 
-APPROACH 1. Script detection using Unicode ranges 2. Hindi Roman lexicon
-hits 3. English stopword hits 4. Deterministic rule based classification
+APPROACH 
+1. Script detection using Unicode ranges
+2. Hindi Roman lexicon hits
+3. English stopword hits
+4. Deterministic rule based classification
 5. Confidence computed from ratios and token counts
 
 CLI USAGE lang_detect –in texts.jsonl –out lang.jsonl
