@@ -1,0 +1,20 @@
+# Ashwam Language Detection
+
+Deterministic language + script detector for short journaling snippets containing English, Hindi (Devanagari), and Hinglish.
+
+## Labels
+
+- primary_language: `en`, `hi`, `hinglish`, `mixed`, `unknown`  
+- script: `latin`, `devanagari`, `mixed`, `other`  
+
+Each row also has `confidence` (0–1) and an `evidence` object with ratios and lexicon hits.[file:1]
+
+## Approach
+
+- Script detection via Unicode ranges (Latin vs Devanagari).  
+- Small Hindi-in-Latin lexicon and English word list.  
+- Heuristic rules to combine script + lexicon signals into labels.  
+- Confidence from script purity and fraction of recognized tokens.[file:1]
+
+## Usage
+

@@ -1,0 +1,5 @@
+{"id": "ex_en_1", "primary_language": "en", "script": "latin", "confidence": 1.0, "evidence": {"latin_ratio": 1.0, "devanagari_ratio": 0.0, "hi_lexicon_hits": 0, "en_word_hits": 4, "n_tokens": 4}}
+{"id": "ex_hing_1", "primary_language": "mixed", "script": "latin", "confidence": 0.86, "evidence": {"latin_ratio": 1.0, "devanagari_ratio": 0.0, "hi_lexicon_hits": 4, "en_word_hits": 1, "n_tokens": 7}}
+{"id": "ex_hi_1", "primary_language": "hi", "script": "devanagari", "confidence": 0.67, "evidence": {"latin_ratio": 0.0, "devanagari_ratio": 0.9230769230769231, "hi_lexicon_hits": 0, "en_word_hits": 0, "n_tokens": 4}}
+{"id": "ex_mix_1", "primary_language": "mixed", "script": "mixed", "confidence": 0.61, "evidence": {"latin_ratio": 0.68, "devanagari_ratio": 0.32, "hi_lexicon_hits": 1, "en_word_hits": 1, "n_tokens": 7}}
+{"id": "ex_unk_1", "primary_language": "unknown", "script": "other", "confidence": 0.2, "evidence": {"latin_ratio": 0.0, "devanagari_ratio": 0.0, "hi_lexicon_hits": 0, "en_word_hits": 0, "n_tokens": 0}}
